@@ -1,6 +1,4 @@
 <h1 align="center">
-    <img alt="GoBarber API" src="https://res.cloudinary.com/lukemorales/image/upload/v1599783084/readme_logos/bancointer_s0x4zc.png" />
-    <br>
     Password generator
 </h1>
 
@@ -22,12 +20,12 @@
   <a href="#memo-license">License</a>
 </p>
 
-![App Screenshot](https://res.cloudinary.com/lukemorales/image/upload/v1599784304/readme_logos/bancointer-preview_resa83.png)
 <p align="center">
-  <a href="https://bancointer-redesign.netlify.app" target="_blank">
-    <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
+  <a href="https://passwordgenerator-taupe.vercel.app" target="_blank">
+    <img alt="Demo on Netlify" src="/assets/img/password.gif">
   </a>
 </p>
+
 
 ## :rocket: Technologies
 
