@@ -51,7 +51,7 @@ body {
   color: #2a25b1;
   height: 17px;
   outline: none;
-  margin-top: 8px;
+  margin-top: 25px;
 }
 
 .slider::-webkit-slider-thumb {
@@ -157,4 +157,19 @@ body {
 
 .hide {
   display: none;
+}
+
+@media (max-width: 480px){
+  .container{
+    width: 80vw;
+    padding: 50px;
+  }
+
+  .title-logo{
+    font-size: 30px;
+  }
+
+  .container-input span{
+    font-size: 16px;
+  }
 }
