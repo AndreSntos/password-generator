@@ -1,14 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Inter:wght@400;700&family=Poppins:wght@300;700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
   font-family: sans-serif;
-  width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 body {
-  background-color: #18181b;
+  background-color: #e6e5ff;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -17,8 +19,16 @@ body {
   flex-direction: column;
 }
 
-.logo {
-  max-width: 600px;
+.container {
+  background-color: #fff;
+  padding: 80px;
+  border-radius: 50px;
+  box-shadow: 0px 36px 64px rgba(7, 76, 106, 0.25);
+}
+
+.title-logo {
+  font-size: 2.5rem;
+  color: #000;
   margin-bottom: 24px;
 }
 
@@ -28,34 +38,60 @@ body {
 }
 
 .container-input span {
-  color: #fff;
-  font-size: 22px;
+  color: #000;
+  font-size: 1.5rem;
 }
 
 .slider {
-  -webkit-appearance: none;
+  -moz-appearance: none;
+
   width: 100%;
-  border-radius: 5px;
+  border-radius: 50px;
   background: #dfdfdf;
-  height: 18px;
+  color: #2a25b1;
+  height: 17px;
   outline: none;
   margin-top: 8px;
 }
 
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+
+  background-color: #074c6a;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+
+  background-color: #074c6a;
+  cursor: pointer;
+}
+
 .button-cta {
   height: 40px;
-  background-color: #3eb72b;
+  background-color: #074c6a;
   border: 0;
-  border-radius: 4px;
+  border-radius: 50px;
+  width: 80%;
   cursor: pointer;
   margin-top: 40px;
   color: #fff;
   font-weight: bold;
   font-size: 18px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
 }
 
 .container-password {
-  max-width: 480px;
+  max-width: 637px;
   margin: 14px 0;
   display: flex;
   align-items: center;
@@ -65,34 +101,46 @@ body {
 
 .title {
   text-align: center;
-  font-size: 28px;
+  font-size: 24px;
   margin-top: 24px;
   margin-bottom: 8px;
-  color: #fff;
+  color: #000;
+  margin-bottom: 16px;
 }
 
-.password {
-  height: 60px;
-  background-color: rgba(0, 0, 0, 0.4);
-  border-radius: 4px;
+.copy {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  border: 1px solid #313131;
   transition: transform 0.5s ease-in-out;
 }
 
-.password:hover {
+.copy img {
+  width: 26px;
+  margin-left: 10px;
+}
+
+.password {
+  height: 41px;
+  background-color: #d9d8f2;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #074c6a;
+  font-size: 18px;
+  font-weight: 400;
+  padding-block: 10px;
+  padding-inline: 25px;
+}
+
+.copy:hover {
   transform: scale(1.05);
 }
 
 .tooltip {
-  color: #fff;
+  color: #000;
   position: relative;
   top: 20px;
   padding: 6px 8px;
-  background-color: rgb(15, 15, 15);
   text-align: center;
   font-size: 16px;
   border-radius: 6px;
