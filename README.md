@@ -22,7 +22,13 @@
 
 <p align="center">
   <a href="https://passwordgenerator-taupe.vercel.app" target="_blank">
-    <img alt="Demo on Netlify" src="/assets/img/password.gif">
+    <img alt="Demo on Vercel" src="/assets/img/button-vercel.png">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://passwordgenerator-taupe.vercel.app" target="_blank">
+    <img alt="Demo on Vercel" src="/assets/img/password.gif">
   </a>
 </p>
 
